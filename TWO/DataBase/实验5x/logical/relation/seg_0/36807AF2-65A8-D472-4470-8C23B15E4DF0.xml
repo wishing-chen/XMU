@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="36807AF2-65A8-D472-4470-8C23B15E4DF0">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 12:37:50 UTC</createdTime>
+<ownerDesignName>实验5x</ownerDesignName>
+<engineerTo>
+<item key="4A9F96A4-FD8E-9971-53C3-E18CAB7CE1AF" value="true"/>
+</engineerTo>
+<sourcePk>121EC1CA-B44F-7F15-43A9-49904CDC9C83</sourcePk>
+<targetPk>CD511DA4-9BA2-65FB-D155-55CB81B55DD7</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>504E1D93-BD88-11AA-A031-47C552273658</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>81BCF0CB-C9B6-ACB4-5A59-2FE814B409B1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42934BF3-3A83-8D88-20E0-C20D22763A73" name="belong">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<ownerDesignName>实验5x</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Genre_genre" id="BA23D706-4585-E92A-BC5D-08DDEA93C068">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<ownerDesignName>实验5x</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0C3F2D1-48B1-99B7-ED3A-80AD77017592" referredColumn="B4355B05-12E5-7973-685B-260BC3C8F583"/>
+</associations>
+</Column>
+<Column name="Film_title" id="1347862B-99BC-9701-EF4F-CB3760833D1F">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<ownerDesignName>实验5x</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD77517E-DE59-DB08-CF15-2561AA4BCEE4" referredColumn="4CD4675D-638D-3908-E65C-65A9A48B98C8"/>
+</associations>
+</Column>
+<Column name="Film_year_of_release" id="D15CAD53-89E3-8B52-A70B-4D05218EB04D">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<ownerDesignName>实验5x</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD77517E-DE59-DB08-CF15-2561AA4BCEE4" referredColumn="089E82DD-845F-6209-FD43-A2FA06F3A8D5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="177295AB-2564-0352-A812-7F65510DF55D" name="belong_PK">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<ownerDesignName>实验5x</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA23D706-4585-E92A-BC5D-08DDEA93C068"/>
+<colUsage columnID="1347862B-99BC-9701-EF4F-CB3760833D1F"/>
+<colUsage columnID="D15CAD53-89E3-8B52-A70B-4D05218EB04D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D961BD32-39B0-FB2B-7E9E-E0ABD9966F5E" name="belong_Genre_FK">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<generatorID>9F19849E-7B69-13C2-732E-DD7B700FD66E</generatorID>
+<ownerDesignName>实验5x</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA23D706-4585-E92A-BC5D-08DDEA93C068"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C23FFBD-EA15-C9BC-BF63-652AC33EC64B" name="belong_Film_FK">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<generatorID>9F19849E-7B69-13C2-732E-DD7B700FD66E</generatorID>
+<ownerDesignName>实验5x</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1347862B-99BC-9701-EF4F-CB3760833D1F"/>
+<colUsage columnID="D15CAD53-89E3-8B52-A70B-4D05218EB04D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

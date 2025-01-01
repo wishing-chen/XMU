@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="20D4923E-D0E6-3202-31A9-D9B4E0ADF88B" name="Quote">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 12:34:41 UTC</createdTime>
+<ownerDesignName>实验5x</ownerDesignName>
+<engineerTo>
+<item key="4A9F96A4-FD8E-9971-53C3-E18CAB7CE1AF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="quote" id="64FBBC6A-0725-36D4-7256-2EA7F1BB304E">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 12:34:50 UTC</createdTime>
+<ownerDesignName>实验5x</ownerDesignName>
+<engineerTo>
+<item key="4A9F96A4-FD8E-9971-53C3-E18CAB7CE1AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title" id="6E045F6C-2941-FED7-FC23-FE2E8D5E49D3">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 12:45:55 UTC</createdTime>
+<generatorID>71E09D9B-E8BC-C2AB-CA51-6F33043FEBD3</generatorID>
+<ownerDesignName>实验5x</ownerDesignName>
+<engineerTo>
+<item key="4A9F96A4-FD8E-9971-53C3-E18CAB7CE1AF" value="true"/>
+</engineerTo>
+<referedAttribute>057FCB6F-2AFF-2B9F-7CDC-DE49D4E32912</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="year_of_release" id="6D6D26DE-9547-E37C-E456-F5E3615920C6">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 12:45:55 UTC</createdTime>
+<generatorID>71E09D9B-E8BC-C2AB-CA51-6F33043FEBD3</generatorID>
+<ownerDesignName>实验5x</ownerDesignName>
+<engineerTo>
+<item key="4A9F96A4-FD8E-9971-53C3-E18CAB7CE1AF" value="true"/>
+</engineerTo>
+<referedAttribute>7D5197B5-8E4B-8BD4-0897-5AD136DA6DAA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name1" id="82C08D76-5F91-9299-5E5F-6683A7BBF91C">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 12:50:35 UTC</createdTime>
+<generatorID>C568A340-3ACD-5DF2-6F7D-566E75053EBE</generatorID>
+<ownerDesignName>实验5x</ownerDesignName>
+<engineerTo>
+<item key="4A9F96A4-FD8E-9971-53C3-E18CAB7CE1AF" value="true"/>
+</engineerTo>
+<referedAttribute>3C66C68F-8825-07EF-0035-60BB698D48CF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_of_birth1" id="7BBA3AE4-0190-D2F7-4EB8-FAAB74E0D1A7">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 12:50:35 UTC</createdTime>
+<generatorID>C568A340-3ACD-5DF2-6F7D-566E75053EBE</generatorID>
+<ownerDesignName>实验5x</ownerDesignName>
+<engineerTo>
+<item key="4A9F96A4-FD8E-9971-53C3-E18CAB7CE1AF" value="true"/>
+</engineerTo>
+<referedAttribute>19832B8B-F17D-79EC-B1F1-049E61091696</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="55844A29-51F6-841C-FC79-98BDDEB3C507" name="Quote PK">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 12:35:06 UTC</createdTime>
+<ownerDesignName>实验5x</ownerDesignName>
+<engineerTo>
+<item key="4A9F96A4-FD8E-9971-53C3-E18CAB7CE1AF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>64FBBC6A-0725-36D4-7256-2EA7F1BB304E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

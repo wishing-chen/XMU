@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AC1202C5-09E5-8A70-81C3-F775E41A3F91" name="Patrons">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 06:42:51 UTC</createdTime>
+<ownerDesignName>实验5</ownerDesignName>
+<engineerTo>
+<item key="C4C157F8-738C-8AB0-8191-6B552341CEF3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="patron_id" id="87D673CB-B024-0E67-5453-21826473EBB8">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 06:43:23 UTC</createdTime>
+<ownerDesignName>实验5</ownerDesignName>
+<engineerTo>
+<item key="C4C157F8-738C-8AB0-8191-6B552341CEF3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>43E9F91D-A0AC-C8D2-F674-0FE6CE08F300</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="3BF9ACD6-9E8A-4E6B-5C0C-6B1F84653050">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 06:43:50 UTC</createdTime>
+<ownerDesignName>实验5</ownerDesignName>
+<engineerTo>
+<item key="C4C157F8-738C-8AB0-8191-6B552341CEF3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>224DF3DB-942D-5892-F24C-A04A35676EBB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="88FCA9B4-A3A9-4718-233A-ED15B49564D2">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 06:44:06 UTC</createdTime>
+<ownerDesignName>实验5</ownerDesignName>
+<engineerTo>
+<item key="C4C157F8-738C-8AB0-8191-6B552341CEF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>224DF3DB-942D-5892-F24C-A04A35676EBB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street_address" id="6B26067C-70F4-3035-F1C9-0CCC5C39D9DB">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 06:44:21 UTC</createdTime>
+<ownerDesignName>实验5</ownerDesignName>
+<engineerTo>
+<item key="C4C157F8-738C-8AB0-8191-6B552341CEF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5C4CC1B2-86C0-38EA-494A-B4D216AB6EA2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="83BC29FA-EDA7-6A15-284D-C0DE81A25201">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 06:44:48 UTC</createdTime>
+<ownerDesignName>实验5</ownerDesignName>
+<engineerTo>
+<item key="C4C157F8-738C-8AB0-8191-6B552341CEF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E220B402-DB5C-A915-2359-7A63F21DEA87</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="state" id="9ADDF949-CC71-1554-8768-B313C2950517">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 06:45:02 UTC</createdTime>
+<ownerDesignName>实验5</ownerDesignName>
+<engineerTo>
+<item key="C4C157F8-738C-8AB0-8191-6B552341CEF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A46A7A12-82AA-701F-0EB7-2BF30E7A0AD6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zip" id="41A87D57-21B2-D159-060D-2A5CD53C0359">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 06:45:13 UTC</createdTime>
+<ownerDesignName>实验5</ownerDesignName>
+<engineerTo>
+<item key="C4C157F8-738C-8AB0-8191-6B552341CEF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>45D3361B-62FF-D9DB-2485-32F17F8C2C8E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location" id="1F3BCCDF-BE81-93C9-CE33-83EE0FD0FCBB">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 06:45:20 UTC</createdTime>
+<ownerDesignName>实验5</ownerDesignName>
+<engineerTo>
+<item key="C4C157F8-738C-8AB0-8191-6B552341CEF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="29665C8F-DB97-5184-EDDD-5D267A532E9C" name="Patrons PK">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 06:43:46 UTC</createdTime>
+<ownerDesignName>实验5</ownerDesignName>
+<engineerTo>
+<item key="C4C157F8-738C-8AB0-8191-6B552341CEF3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>87D673CB-B024-0E67-5453-21826473EBB8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

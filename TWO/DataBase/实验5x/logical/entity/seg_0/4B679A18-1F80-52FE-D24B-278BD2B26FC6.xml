@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B679A18-1F80-52FE-D24B-278BD2B26FC6" name="Genre">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 12:27:45 UTC</createdTime>
+<ownerDesignName>实验5x</ownerDesignName>
+<engineerTo>
+<item key="4A9F96A4-FD8E-9971-53C3-E18CAB7CE1AF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="genre" id="2AACCB2D-4EB9-73C5-89D6-9A3FB7C04089">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 12:27:54 UTC</createdTime>
+<ownerDesignName>实验5x</ownerDesignName>
+<engineerTo>
+<item key="4A9F96A4-FD8E-9971-53C3-E18CAB7CE1AF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BFC6B152-E0E1-9665-6644-5491FF93670F" name="Genre PK">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 12:28:06 UTC</createdTime>
+<ownerDesignName>实验5x</ownerDesignName>
+<engineerTo>
+<item key="4A9F96A4-FD8E-9971-53C3-E18CAB7CE1AF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2AACCB2D-4EB9-73C5-89D6-9A3FB7C04089</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

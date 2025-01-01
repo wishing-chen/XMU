@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59E8D5CB-D4B3-9A86-3454-A07AF779EDAF" name="Transactions">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 07:00:27 UTC</createdTime>
+<generatorID>520B6812-A082-7872-37DD-00CC2ECFA81D</generatorID>
+<ownerDesignName>实验5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="transaction_id" id="30FF48A1-2A8C-2AEF-5CE8-261C0CC4C5B3">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 07:00:27 UTC</createdTime>
+<generatorID>7A4F2974-47B5-199B-E1FE-FA068B4D1E64</generatorID>
+<ownerDesignName>实验5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>43E9F91D-A0AC-C8D2-F674-0FE6CE08F300</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_data" id="3AB4A9E7-7739-055B-16C9-A95BBED553B3">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 07:00:27 UTC</createdTime>
+<generatorID>A4FD233A-5EE6-151E-B0F4-81E67AE4CBBD</generatorID>
+<ownerDesignName>实验5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_type" id="339BF135-6905-4E82-4854-F883C5D60127">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 07:00:27 UTC</createdTime>
+<generatorID>578C9E18-7E39-3D94-519E-D448D7B6B784</generatorID>
+<ownerDesignName>实验5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>43E9F91D-A0AC-C8D2-F674-0FE6CE08F300</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Books_book_id" id="32023684-D683-FB91-EE3D-53AB5FC20ACD">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 07:00:27 UTC</createdTime>
+<generatorID>371EEF17-8FDD-47FE-EA72-71B16E78901E</generatorID>
+<ownerDesignName>实验5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0B9B6EE2-1333-A5DD-51B9-90BDEFADED36</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59FFBF0A-7FB3-40D7-6091-EDFBEEC2C966" referredColumn="4ADE80DF-F49D-16F0-6472-2586E0891FC9"/>
+</associations>
+</Column>
+<Column name="Patrons_patron_id" id="F3A224A3-EDE5-A390-1FE6-FE02CB2471DF">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 07:00:27 UTC</createdTime>
+<generatorID>1D3EB545-9682-D629-F763-148CBC60FD84</generatorID>
+<ownerDesignName>实验5</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>43E9F91D-A0AC-C8D2-F674-0FE6CE08F300</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6B5C760-E82B-6AC1-D030-EA296BAD0343" referredColumn="3579A4F7-DCEE-5703-5D41-73D57D77E48B"/>
+</associations>
+</Column>
+<Column name="Due_data" id="DA3A899E-1C86-F35D-948B-0F3DD1D0931E">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 07:00:27 UTC</createdTime>
+<generatorID>56B4E3A7-3BDE-7E19-3EDD-1C98C04A5778</generatorID>
+<ownerDesignName>实验5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>59FFBF0A-7FB3-40D7-6091-EDFBEEC2C966</dependOnForeignKeyID>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2CA42841-CC16-1136-B80A-5613E73E836D" name="Transactions_PK">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 07:00:27 UTC</createdTime>
+<generatorID>B09F1FEE-669B-D37F-05BF-C700CCD19DAB</generatorID>
+<ownerDesignName>实验5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30FF48A1-2A8C-2AEF-5CE8-261C0CC4C5B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10247901-ADD8-8C72-F654-A5BB61DBA6A3" name="Transactions_Patrons_FK">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 07:00:27 UTC</createdTime>
+<generatorID>77ED9BD5-3C98-8BE1-90DC-C2E9120102E0</generatorID>
+<ownerDesignName>实验5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3A224A3-EDE5-A390-1FE6-FE02CB2471DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3103AA15-435D-B921-F1E8-2714DE5419DE" name="Transactions_Books_FK">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 07:00:27 UTC</createdTime>
+<generatorID>10D321CE-2F70-85E8-4961-32A9F93F7D97</generatorID>
+<ownerDesignName>实验5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32023684-D683-FB91-EE3D-53AB5FC20ACD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

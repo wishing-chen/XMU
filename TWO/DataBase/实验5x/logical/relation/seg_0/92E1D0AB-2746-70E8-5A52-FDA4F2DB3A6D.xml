@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="acted" directorySegmentName="seg_0" id="92E1D0AB-2746-70E8-5A52-FDA4F2DB3A6D">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 12:39:46 UTC</createdTime>
+<ownerDesignName>实验5x</ownerDesignName>
+<engineerTo>
+<item key="4A9F96A4-FD8E-9971-53C3-E18CAB7CE1AF" value="true"/>
+</engineerTo>
+<sourcePk>CD511DA4-9BA2-65FB-D155-55CB81B55DD7</sourcePk>
+<targetPk>7EEB3A9B-CA4C-1D3E-93E4-12C030909A15</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>81BCF0CB-C9B6-ACB4-5A59-2FE814B409B1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EE0E8676-CEA2-F997-2822-56D00737D273</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="role" id="ED74A4A0-53C2-5F47-FED7-010A687BF51D">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 12:45:02 UTC</createdTime>
+<ownerDesignName>实验5x</ownerDesignName>
+<engineerTo>
+<item key="4A9F96A4-FD8E-9971-53C3-E18CAB7CE1AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="79BB1FB0-2010-E667-4BBE-924CDDA8ED3D" containerWithKeyObject="45740779-4103-FAEA-CBCA-3B949228EC1C" localFKIndex="AE259A21-160C-9B89-F050-55A4DFEFD320" name="Quote_Actor_FK">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<generatorID>C568A340-3ACD-5DF2-6F7D-566E75053EBE</generatorID>
+<ownerDesignName>实验5x</ownerDesignName>
+<referredTableLongName>Actor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7A1B3AF4-C76F-6DE2-D330-BA87D7871BD1</referredTableID>
+<keyObject>1B236EC2-B3EE-1385-6AB3-7616705667EE</keyObject>
+<referredKeyID>1B236EC2-B3EE-1385-6AB3-7616705667EE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>name,data_of_birth</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

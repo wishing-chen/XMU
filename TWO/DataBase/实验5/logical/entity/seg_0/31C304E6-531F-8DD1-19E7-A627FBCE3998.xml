@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31C304E6-531F-8DD1-19E7-A627FBCE3998" name="Books">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 06:38:39 UTC</createdTime>
+<ownerDesignName>实验5</ownerDesignName>
+<engineerTo>
+<item key="C4C157F8-738C-8AB0-8191-6B552341CEF3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="book_id" id="48DB7FE2-3FA5-7270-C008-35D3927FD593">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 06:39:11 UTC</createdTime>
+<ownerDesignName>实验5</ownerDesignName>
+<engineerTo>
+<item key="C4C157F8-738C-8AB0-8191-6B552341CEF3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0B9B6EE2-1333-A5DD-51B9-90BDEFADED36</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titile" id="6C7E4D39-3810-2C39-202E-33FC5A934851">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 06:40:16 UTC</createdTime>
+<ownerDesignName>实验5</ownerDesignName>
+<engineerTo>
+<item key="C4C157F8-738C-8AB0-8191-6B552341CEF3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FF85D1D5-B721-689C-F119-B462ADBFA870</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author_last_name" id="693B3F67-5B7F-5E55-0A39-672D5BFA2340">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 06:40:34 UTC</createdTime>
+<ownerDesignName>实验5</ownerDesignName>
+<engineerTo>
+<item key="C4C157F8-738C-8AB0-8191-6B552341CEF3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>224DF3DB-942D-5892-F24C-A04A35676EBB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="author_first_name" id="27C98CF1-7123-F076-A04E-99DE31B61C06">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 06:41:06 UTC</createdTime>
+<ownerDesignName>实验5</ownerDesignName>
+<engineerTo>
+<item key="C4C157F8-738C-8AB0-8191-6B552341CEF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>224DF3DB-942D-5892-F24C-A04A35676EBB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rating" id="4DE2F356-189C-5138-3B38-BCEEB8C901FF">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 06:41:51 UTC</createdTime>
+<ownerDesignName>实验5</ownerDesignName>
+<engineerTo>
+<item key="C4C157F8-738C-8AB0-8191-6B552341CEF3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="420DCC91-6A53-7805-4B29-12446E84F8ED" name="Books PK">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-15 06:39:39 UTC</createdTime>
+<ownerDesignName>实验5</ownerDesignName>
+<engineerTo>
+<item key="C4C157F8-738C-8AB0-8191-6B552341CEF3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>48DB7FE2-3FA5-7270-C008-35D3927FD593</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

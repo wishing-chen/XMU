@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79BA59C9-3695-1B8E-3388-008F005F585F" name="Film">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<generatorID>81BCF0CB-C9B6-ACB4-5A59-2FE814B409B1</generatorID>
+<ownerDesignName>实验5x</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="title" id="4CD4675D-638D-3908-E65C-65A9A48B98C8">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<generatorID>057FCB6F-2AFF-2B9F-7CDC-DE49D4E32912</generatorID>
+<ownerDesignName>实验5x</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="year_of_release" id="089E82DD-845F-6209-FD43-A2FA06F3A8D5">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<generatorID>7D5197B5-8E4B-8BD4-0897-5AD136DA6DAA</generatorID>
+<ownerDesignName>实验5x</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="length" id="50F4F66E-2496-56C5-CF71-C86E2F0107B1">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<generatorID>97B8C992-AAFC-EE17-27A6-43598FC78B21</generatorID>
+<ownerDesignName>实验5x</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plot" id="4A0B7FDF-B4AB-E9A8-EEF7-EE879B8B14A0">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<generatorID>D2596765-74B8-E48D-0369-686ECEC49D5A</generatorID>
+<ownerDesignName>实验5x</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Production_Company_name" id="8BDD2407-7BFA-CEBD-0EC1-B9AF5F5E22E7">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<generatorID>C4A14A0F-5A98-4D24-DB3E-914CAF8E3913</generatorID>
+<ownerDesignName>实验5x</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78E2F322-4199-35FF-8253-3158FB7688D2" referredColumn="2E8BA88B-7482-AF68-06DB-71A2232EA38F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75B9D841-9C71-980F-DA77-BE5435587956" name="Film_PK">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<generatorID>CD511DA4-9BA2-65FB-D155-55CB81B55DD7</generatorID>
+<ownerDesignName>实验5x</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CD4675D-638D-3908-E65C-65A9A48B98C8"/>
+<colUsage columnID="089E82DD-845F-6209-FD43-A2FA06F3A8D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0B364D4-A5C5-6495-2203-38BEADDCBEC5" name="Film_Production_Company_FK">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<generatorID>36807AF2-65A8-D472-4470-8C23B15E4DF0</generatorID>
+<ownerDesignName>实验5x</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BDD2407-7BFA-CEBD-0EC1-B9AF5F5E22E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

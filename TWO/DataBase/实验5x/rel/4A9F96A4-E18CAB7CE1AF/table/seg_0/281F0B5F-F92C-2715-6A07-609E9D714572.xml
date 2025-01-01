@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="281F0B5F-F92C-2715-6A07-609E9D714572" name="direct">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<ownerDesignName>实验5x</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Film_title" id="D681BFD7-D3EE-F2A5-DB1B-841B1902736D">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<ownerDesignName>实验5x</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D68089B-A25C-7A2D-7ABA-9CDF3DB14D0C" referredColumn="4CD4675D-638D-3908-E65C-65A9A48B98C8"/>
+</associations>
+</Column>
+<Column name="Film_year_of_release" id="6CCA3B21-D7B3-FB8F-A5AA-117AEB5255EA">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<ownerDesignName>实验5x</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D68089B-A25C-7A2D-7ABA-9CDF3DB14D0C" referredColumn="089E82DD-845F-6209-FD43-A2FA06F3A8D5"/>
+</associations>
+</Column>
+<Column name="Director_name" id="EEC42878-E487-774F-EF87-6752382703C8">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<ownerDesignName>实验5x</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16C81FB6-F8C0-1DEB-0558-13519B426EC4" referredColumn="7350AA66-A52A-54AD-C609-BCB0DE9DABEB"/>
+</associations>
+</Column>
+<Column name="Director_data_of_birth" id="7FE71E91-E127-26B3-CBF2-18027A91E07E">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<ownerDesignName>实验5x</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16C81FB6-F8C0-1DEB-0558-13519B426EC4" referredColumn="A9995C15-1A79-0BCC-F724-6F84D1C357A6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59DC8EFD-7C75-9873-8780-37C3EC968113" name="direct_PK">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<ownerDesignName>实验5x</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D681BFD7-D3EE-F2A5-DB1B-841B1902736D"/>
+<colUsage columnID="6CCA3B21-D7B3-FB8F-A5AA-117AEB5255EA"/>
+<colUsage columnID="EEC42878-E487-774F-EF87-6752382703C8"/>
+<colUsage columnID="7FE71E91-E127-26B3-CBF2-18027A91E07E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="046D4B48-F9CD-AC52-70D5-5AB7E435DEFC" name="direct_Film_FK">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<generatorID>CBA10BEA-D44B-A400-1B26-5AF66744BF8A</generatorID>
+<ownerDesignName>实验5x</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D681BFD7-D3EE-F2A5-DB1B-841B1902736D"/>
+<colUsage columnID="6CCA3B21-D7B3-FB8F-A5AA-117AEB5255EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5488E6B-8F74-EEDC-9339-941639045D27" name="direct_Director_FK">
+<createdBy>ZhuanZ（无密码）</createdBy>
+<createdTime>2024-05-19 13:05:50 UTC</createdTime>
+<generatorID>CBA10BEA-D44B-A400-1B26-5AF66744BF8A</generatorID>
+<ownerDesignName>实验5x</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEC42878-E487-774F-EF87-6752382703C8"/>
+<colUsage columnID="7FE71E91-E127-26B3-CBF2-18027A91E07E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
